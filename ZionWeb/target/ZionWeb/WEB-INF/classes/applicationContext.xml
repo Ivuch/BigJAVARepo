@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+	<bean id="User" class="com.ivuch.zionweb.Usuario">
+		<property name="DNI" value="37206866" />
+		<property name="id" value="c123413ero" />
+		<property name="name" value="Ivuch Mkong" />
+		<property name="pass" value="Casdediamante7890" />
+	</bean>
+ 
+</beans>

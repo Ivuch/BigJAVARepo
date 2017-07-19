@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_login">
+            <menu:item id="i_login" messageCode="global_generic" url="/login"/>
+            <menu:item id="i_logout" messageCode="global_generic" url="/resources/j_spring_security_logout"/>
+        </menu:category>
+        <menu:category id="c_bandeja">
+            <menu:item id="i_bandeja_inbox" messageCode="global_generic" url="/bandeja" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_antecedenteproyecto" z="M2Fvjl5kFwsCb4FkuZOF1B5xDd0=">
+            <menu:item id="i_antecedenteproyecto_list" messageCode="global_menu_list" url="/antecedenteproyectoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="LOgAZoQkbO2ynAsxwKSdMKBUnY4="/>
+        </menu:category>
+        <menu:category id="c_usuario" z="g6oG0656PcsmmvUYeBtpgiQROck=">
+            <menu:item id="i_usuario_new" messageCode="global_menu_new" url="/usuarios?form" z="RG1gCsiZQjg1HLDzXbHKht6yDkw="/>
+            <menu:item id="i_usuario_list" messageCode="global_menu_list" url="/usuarios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7ZIPrcTTBR41JYD0QldbYgsZrM="/>
+        </menu:category>
+        <menu:category id="c_grupo" z="aEc7CUb6jPdvenY+zZYtXPTsF6A=">
+            <menu:item id="i_grupo_new" messageCode="global_menu_new" url="/grupoes?form" z="w/Bv5V+m4clKPWr5NSSRzQPz8Nc="/>
+            <menu:item id="i_grupo_list" messageCode="global_menu_list" url="/grupoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="O3uVN41ElSwPLWcQ8uEDcvkEyRc="/>
+        </menu:category>
+        <menu:category id="c_cliente_contacto" z="user-managed">
+            <menu:item id="i_cliente_new" messageCode="global_menu_new" url="/clientes?form" z="cDLtjRjIN5c0dyE1ltBb0Mk1DJo="/>
+            <menu:item id="i_cliente_list" messageCode="global_menu_list" url="/clientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lk2UTVTUA9lz30A2vJEbY3GbO6E="/>
+            <menu:item id="i_contacto_new" messageCode="global_menu_new" url="/contactoes?form" z="zdespq5tJ+FqS04xPOB/h4q/+mE="/>
+            <menu:item id="i_contacto_list" messageCode="global_menu_list" url="/contactoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Dgb9u68WMSpRLucUcKYaYrSzP8w="/>
+        </menu:category>
+        <menu:category id="c_comunes" z="user-managed">
+            <menu:item id="i_servicio_new" messageCode="global_menu_new" url="/servicios?form" z="ZcD+IcvafBsgx0tkgA0q3ri2p/0="/>
+            <menu:item id="i_servicio_list" messageCode="global_menu_list" url="/servicios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kletWUAURy0xmdNr3gkiFD22PjM="/>
+            <menu:item id="i_tiposolucion_new" messageCode="global_menu_new" url="/tiposolucions?form" z="VxiI4k6bRHsc0aafoE9tptr7s8M="/>
+            <menu:item id="i_tiposolucion_list" messageCode="global_menu_list" url="/tiposolucions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="xpgVZpQMZ1fzL2g4Nj3GeIxvZRo="/>
+            <menu:item id="i_pais_new" messageCode="global_menu_new" url="/paises?form" z="bxvSTbzPY9x835FOZxoi93U9Jq8="/>
+            <menu:item id="i_pais_list" messageCode="global_menu_list" url="/paises?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1OgKfCE2gL1Zr2wu11L9WCy3dB0="/>
+            <menu:item id="i_sbu_new" messageCode="global_menu_new" url="/sbus?form" z="PKjoX+1pzDcvrn7uZlsTVhiYYZw="/>
+            <menu:item id="i_sbu_list" messageCode="global_menu_list" url="/sbus?page=1&amp;size=${empty param.size ? 10 : param.size}" z="nb94BqF2n8/t9BqpyXDP9eaGsqU="/>
+        </menu:category>
+        <menu:category id="c_pais" z="m54q1eFKeKDwYcDvxEntiIDT43U="/>
+        <menu:category id="c_tiposolucion" z="XZoEOddCCUnY/AYG/afix5/y1uo="/>
+        <menu:category id="c_sbu" z="9lkyiRwfZ1Kh+OQBpbnisWJBw98="/>
+        <menu:category id="c_cliente" z="OA12E4nwdOcMU0p7LaQV8KKBm5E="/>
+        <menu:category id="c_contacto" z="hBkvx/0fo1w7N+2eKKyRmHraKyA="/>
+        <menu:category id="c_servicio" z="7MD3PicwH2wjXL1KbIMGsi+3MAc="/>
+        <menu:category id="c_cuenta" z="zvzEbahYxrEGyQXWEkR0tM3nYKA=">
+            <menu:item id="i_cuenta_new" messageCode="global_menu_new" url="/clientes?form" z="lz4BNqUSX+cyO9pmI1+LcY6LnJI="/>
+            <menu:item id="i_cuenta_list" messageCode="global_menu_list" url="/clientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="WveBPluX7IQfgVyjjEhbrJri2iQ="/>
+        </menu:category>
+        <menu:category id="c_monedacontrato" z="EJ5OOxFgb16moJEMhLSP339cYCM=">
+            <menu:item id="i_monedacontrato_new" messageCode="global_menu_new" url="/monedas?form" z="DHg159lpDnN7qt312XnT5fy43Wk="/>
+            <menu:item id="i_monedacontrato_list" messageCode="global_menu_list" url="/monedas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="RH47TFZ57kl6CXqy7ZzoBFccb1k="/>
+        </menu:category>
+    </menu:menu>
+</div>

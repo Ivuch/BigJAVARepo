@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="antecedenteProyectos/create1">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/create1.jsp"/>
+	</definition>
+
+	<definition extends="default" name="antecedenteProyectos/create2">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/create2.jsp"/>
+	</definition>
+
+	<definition extends="default" name="antecedenteProyectos/create3">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/create3.jsp"/>
+	</definition>
+
+	<definition extends="default" name="antecedenteProyectos/create4">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/create4.jsp"/>
+	</definition>
+
+	<definition extends="default" name="antecedenteProyectos/list">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/list.jsp"/>
+	</definition>
+
+	<definition extends="empty" name="antecedenteProyectos/show">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/show.jsp"/>
+	</definition>
+	
+	<definition extends="empty" name="antecedenteProyectos/tabla">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/tabla_antecedentes.jsp"/>
+	</definition>
+
+	<definition extends="empty" name="imprimir/antecedente">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/imprimir_antecedente.jsp" />
+	</definition>
+	
+	<definition extends="empty" name="imprimir/lista">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/imprimir_lista.jsp" />
+	</definition>
+	
+	<definition extends="default" name="antecedenteProyectos/DataEF">
+		<put-attribute name="body" value="/WEB-INF/views/antecedenteProyectos/DataEntryForm.jsp"/>
+	</definition>
+	
+</tiles-definitions>

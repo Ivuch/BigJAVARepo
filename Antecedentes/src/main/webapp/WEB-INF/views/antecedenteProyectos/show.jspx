@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" id="ps_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto" object="${antecedenteproyecto}" path="/antecedenteProyectos" update="false" z="rFDE28SK+QkBytOEcKtpAZeLF8I=">
+        <field:display field="estado" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_estado" object="${antecedenteproyecto}" z="XuX3uEDC3CcseAJYvNzjX4/xQf8="/>
+        <field:display field="validaciones" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_validaciones" object="${antecedenteproyecto}" z="C4o7z4an/+8U/MrmZJmdzUH4e1A="/>
+        <field:display field="contacto" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_contacto" object="${antecedenteproyecto}" z="RyHuLHpCIzO/DJzaLhB+xpgHqco="/>
+        <field:display date="true" dateTimePattern="${antecedenteProyecto_fechacarga_date_format}" field="fechaCarga" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_fechaCarga" object="${antecedenteproyecto}" z="q9ToYzi2+r8tbGxMZpLM4hmSao8="/>
+        <field:display date="true" dateTimePattern="${antecedenteProyecto_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_fechaModificacion" object="${antecedenteproyecto}" z="hB19489Kr3jjRhoRE53xjfE8fqo="/>
+        <field:display field="creadorAntecedente" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_creadorAntecedente" object="${antecedenteproyecto}" z="QdWCooCsYY+7zOrNXBUx+CdBmEQ="/>
+        <field:display field="nombre" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_nombre" object="${antecedenteproyecto}" z="GRbdCus339Uv4rJO2e4nYRQK+0M="/>
+        <field:display field="cliente" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_cliente" object="${antecedenteproyecto}" z="UAzJchWk38DQa0HozBKn41hQvb0="/>
+        <field:display field="clienteFinal" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_clienteFinal" object="${antecedenteproyecto}" z="0YOAtpsKDISn02D0lcQD5Mh1fhg="/>
+        <field:display field="servicio" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_servicio" object="${antecedenteproyecto}" z="azt9V3JXxLrtAdmeqjVyzXUzHXk="/>
+        <field:display field="tipoSolucion" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_tipoSolucion" object="${antecedenteproyecto}" z="WLb0YdSjmvjYFpSt9c+4B37qDiM="/>
+        <field:display field="sbu" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_sbu" object="${antecedenteproyecto}" z="t5VZDdMBehV36edLUFMy9X7tSXY="/>
+        <field:display field="pais" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_pais" object="${antecedenteproyecto}" z="kg6bllEm1vwa15oFyTIV3hktJo8="/>
+        <field:display field="liderProyecto" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_liderProyecto" object="${antecedenteproyecto}" z="EkroKrkzePKiUp025ywhj3Zu0+M="/>
+        <field:display date="true" dateTimePattern="${antecedenteProyecto_fechainicio_date_format}" field="fechaInicio" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_fechaInicio" object="${antecedenteproyecto}" z="v/Q6Gw0Uv+FiIvbJHMcvS2nl1Vw="/>
+        <field:display date="true" dateTimePattern="${antecedenteProyecto_fechafin_date_format}" field="fechaFin" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_fechaFin" object="${antecedenteproyecto}" z="war1uwv985D/q9dtQSTpzH5uVbc="/>
+        <field:display field="areaUsuaria" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_areaUsuaria" object="${antecedenteproyecto}" z="lEyusRapUhzlentSsB5kzHHC6q0="/>
+        <field:display field="duracion" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_duracion" object="${antecedenteproyecto}" z="8bGiqUCcZkF2680OmfyIpvYHKRg="/>
+        <field:display field="horas" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_horas" object="${antecedenteproyecto}" z="X+6l1sP2RNnQzYJ9SPwaHQsP7ak="/>
+        <field:display field="recursosPerfiles" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_recursosPerfiles" object="${antecedenteproyecto}" z="XiMD92haLbUYLR2dUaxSefqiat0="/>
+        <field:display field="montoContrato" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_montoContrato" object="${antecedenteproyecto}" z="jDHGgrd97w13KlyJWjj0GDeKXyg="/>
+        <field:display field="monedaContrato" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_monedaContrato" object="${antecedenteproyecto}" z="78KaHB2A5Xmxixg47E9NAETUWdo="/>
+        <field:display field="cotizacionMoneda" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_cotizacionMoneda" object="${antecedenteproyecto}" z="HEk0dmgO/Pk8T0rhezIEVyojAX4="/>
+        <field:display field="formaContratacion" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_formaContratacion" object="${antecedenteproyecto}" z="rADTf+1j/G1f7RtjO73kVWwWRhA="/>
+        <field:display field="descFuncionalProyecto" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_descFuncionalProyecto" object="${antecedenteproyecto}" z="Qn8hyMjDyqSLPNir1xmUl/J6Ask="/>
+        <field:display field="descTecnicaProyecto" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_descTecnicaProyecto" object="${antecedenteproyecto}" z="IK+tMeKFUhrBFlbWlY2CwYpagZI="/>
+        <field:display field="logrosObtenidos" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_logrosObtenidos" object="${antecedenteproyecto}" z="xFDNa+KAsM2PxSCv5JqAxXKH9uU="/>
+        <field:display field="tags" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_tags" object="${antecedenteproyecto}" z="sxeJcNgDE5T70tmRULf8uHH2Z8A="/>
+        <field:display field="diagrama" id="s_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_diagrama" object="${antecedenteproyecto}" z="Tt2zuBelrKv9ueeqmnuUlUo1PCQ="/>
+    </page:show>
+</div>

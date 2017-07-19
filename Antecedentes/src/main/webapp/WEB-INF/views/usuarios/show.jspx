@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_snoopconsulting_antecedentes_domain_Usuario" object="${usuario}" path="/usuarios" z="KMJivKlCOsAd84h34hS3NB82LaE=">
+        <field:display field="username" id="s_com_snoopconsulting_antecedentes_domain_Usuario_username" object="${usuario}" z="EuYLMUBXFNLmp0KzZ9w+B7ne97M="/>
+        <field:display field="nombre" id="s_com_snoopconsulting_antecedentes_domain_Usuario_nombre" object="${usuario}" z="qy0dwHhWiUGFZoTokTHFjc65/HI="/>
+        <field:display field="email" id="s_com_snoopconsulting_antecedentes_domain_Usuario_email" object="${usuario}" z="QmUV3Rhy+8LVu4Hc7KgBTigjNac="/>
+        <field:display field="grupos" id="s_com_snoopconsulting_antecedentes_domain_Usuario_grupos" object="${usuario}" z="dDOnjNnbfcPrmV5r9kCP77V5qzk="/>
+        <field:display field="enabled" id="s_com_snoopconsulting_antecedentes_domain_Usuario_enabled" object="${usuario}" z="UPNZdVeqjbvBq+bMPXKSyhbdOEA="/>
+        <field:display field="password" id="s_com_snoopconsulting_antecedentes_domain_Usuario_password" object="${usuario}" z="WsoHLPmk7ITTMR6DONTOxCrUN8Q="/>
+    </page:show>
+</div>

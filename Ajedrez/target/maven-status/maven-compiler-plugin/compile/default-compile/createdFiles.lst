@@ -1,0 +1,13 @@
+juego\Chezz.class
+juego\Tablero.class
+juego\Position.class
+juego\Ficha.class
+juego\Alfil.class
+juego\Torre.class
+juego\Queen.class
+juego\Main.class
+services\ValidatePosition.class
+juego\Caballo.class
+juego\Peon.class
+juego\MyMListener.class
+juego\Rey.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto" items="${antecedenteproyectoes}" z="frFj/OYBQTku49oV9ivNiOR/ZBs=">
+        <table:table data="${antecedenteproyectoes}" id="l_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto" path="/antecedenteProyectos" update="false" z="gyqzezYyUGZ/oiOJQb4hgp+xRKI=">
+            <table:column id="c_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_estado" property="estado" z="4NIbsrWo57vCCwWKyVoq8C1QDQ4="/>
+            <table:column id="c_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_validaciones" property="validaciones" z="nz1Gemd8GYa2ZNnpvFUoxdwoN5Y="/>
+            <table:column id="c_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_contacto" property="contacto" z="7RIkUK1Cyy35kd/TT4kWgzvsUD8="/>
+            <table:column date="true" dateTimePattern="${antecedenteProyecto_fechacarga_date_format}" id="c_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_fechaCarga" property="fechaCarga" z="JcrLzYTIbXKW4TJLA9LhwoioI7Q="/>
+            <table:column date="true" dateTimePattern="${antecedenteProyecto_fechamodificacion_date_format}" id="c_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_fechaModificacion" property="fechaModificacion" z="TNfRuAn1wtnROrM9eS6WbcYNcAo="/>
+            <table:column id="c_com_snoopconsulting_antecedentes_domain_AntecedenteProyecto_creadorAntecedente" property="creadorAntecedente" z="d15CifGXdVGxnBh2vlv9lTrvYXQ="/>
+        </table:table>
+    </page:list>
+</div>

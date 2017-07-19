@@ -1,0 +1,145 @@
+body{
+	margin: 0px;
+	position:relative;
+}
+div{
+	background: linear-gradient(#85AD33,#85AD33);
+}
+#header{
+	height: 60px;
+	background: linear-gradient(to bottom, #527A00,#527A00,#527A00,#527A00);
+}
+#body{
+	padding-left: 3px;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#85AD33,#85AD33);
+}
+#footer{
+	height: 60px;
+	background: linear-gradient(to top, #4791DA,#4791DA,#4791DA,#4791DA,white);
+/* 	border: 2px solid black; */
+/* 	border-radius: 11px; */
+	margin: 0px;
+	margin-top:5px;
+	text-align:center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 120%
+}
+#container-left{
+	position:relative;	
+	float:left;
+	width: 20%;
+	height: 100%;
+	overflow-y: scroll;
+}
+#container-center{
+	float:left;
+	position:relative;
+	width: 30%;
+	height: 100%;
+	left: 10px;
+	background-color: white;
+	word-wrap:break-word;
+	border: 2px solid black;
+	border-radius: 11px;	
+}
+#container-right{
+	float:right;
+	height: 100%;
+	width: 10%;
+	background-color: white;
+	word-wrap:break-word;
+	border: 2px solid black;
+	border-radius: 11px;
+}
+#restResponses{
+	width: 95%;
+	height: 50%;
+	margin-left: 11px;
+	margin-top : 11px;
+	opacity: 1;
+}
+.linkToResource{
+	margin:10px;
+}
+#title{
+	padding-top: 10px;
+	padding-left: 32px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 160%
+}
+#searchEngineBox{
+	position: stiky;
+	margin-bottom: 15px;
+}
+#clearButton{
+	position: absolute;
+	left: 325px;
+	top:330px;
+	opacity: 1;
+}
+#error500{
+	font-size: 500%
+}
+label{
+	display: inline-block; width: 140px; text-align: right; paddding-right:4px;
+}
+#formButton{
+	position: absolute;
+	left: 325px;
+	top:130px;
+	opacity: 1;
+}
+div#beaker {
+  height: 700px;
+  position: relative;
+}
+div#beaker span.bubble {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  display: block;
+  left: 120px;
+  bottom: 110px;
+  -webkit-border-radius: 200px;
+  background: -webkit-gradient(radial, center center, 0, center center, 100, from(rgba(239,29  ,43,.2)), to(rgba(255,255,255,.7)));
+  -webkit-animation-name: bubbleFloat;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+}
+div#beaker span.glow {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  -webkit-border-radius: 200px;
+  -webkit-animation-name: redPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bubbleFloat {
+  from {
+    bottom: 110px; -webkit-transform: scale(.3); opacity: 0; -webkit-animation-timing-function: ease-in-out;
+  }
+  1% {
+    bottom: 110px; -webkit-transform: scale(.3); opacity: 0; -webkit-animation-timing-function: ease-in-out;
+  }
+  30% {
+    bottom: 110px; -webkit-transform: scale(.8); opacity: 1; -webkit-animation-timing-function: ease-in-out;
+  }
+  95% {
+    bottom: 545px; -webkit-transform: scale(.3); opacity: 1; -webkit-animation-timing-function: ease-in-out;
+  }
+  99% {
+  bottom: 550px; -webkit-transform: scale(3); opacity: 0; -webkit-animation-timing-function: ease-in-out;
+  }
+  to {
+    bottom: 110px; -webkit-transform: scale(.9); opacity: 0; -webkit-animation-timing-function: ease-in-out;
+  }
+}
+@-webkit-keyframes redPulse {
+  from { -webkit-box-shadow: 0 0 30px #eb1c2a;}
+  50% { -webkit-box-shadow: 0 0 80px #c91a26; }
+  to { -webkit-box-shadow: 0 0 30px #eb1c2a;}
+}

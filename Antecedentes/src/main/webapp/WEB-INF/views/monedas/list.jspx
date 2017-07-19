@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_snoopconsulting_antecedentes_domain_MonedaContrato" items="${monedacontratoes}" z="2aO/5HhtRhNyliRTED71HLx9svg=">
+        <table:table data="${monedacontratoes}" id="l_com_snoopconsulting_antecedentes_domain_MonedaContrato" path="/monedas" z="uCclCssun8i//8oP7YyVysz7MwY=">
+            <table:column id="c_com_snoopconsulting_antecedentes_domain_MonedaContrato_nombre" property="nombre" z="MtAY5HpqBOxG4OeIEmCY+N6jmX0="/>
+        </table:table>
+    </page:list>
+</div>
